@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Hunt</title>
+    <meta name="author" content="Vrajkumar Bagadiya" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Add heading for the page -->
+        <h1 id="heading">Pizza Hunt</h1>
+    </header>
+    <main>
+        <!-- Add an image with alt text -->
+        <img id="adImg" src="./images/pexels-narda-yescas-1566837.jpg" alt="Three photos of delicious pizza" />
+        <form action="" method="POST">
+            <!-- Fieldset to group related form elements -->
+            <fieldset>
+                <!-- Legend for the fieldset -->
+                <legend>To Book Your Pizza</legend>
+
+                <section class="firstName">
+                    <!-- Label and input field for first name -->
+                    <label for="firstName">First Name:</label>
+                    <input type="text" required autofocus placeholder="First Name" id="firstName" name="firstName" />
+                </section>
+                <br />
+
+                <section class="lastName">
+                    <!-- Label and input field for last name -->
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" required placeholder="Last Name" id="lastName" name="lastName" />
+                </section>
+                <br />
+
+                <section class="email">
+                    <!-- Label and input field for email -->
+                    <label for="email">Email:</label>
+                    <input type="email" required placeholder="E-mail" id="email" name="email" />
+                </section>
+                <br />
+
+                <section class="pizzaType">
+                    <!-- Label and select field for pizza type -->
+                    <label for="pizzaType">Choose Pizza:</label>
+                    <select name="pizzaType" id="typePizza" required>
+                        <option value="">--Select a Pizza--</option>
+                        <option value="bacon">Bacon</option>
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="mushrooms">Mushrooms</option>
+                    </select>
+                </section>
+                <br />
+
+                <section class="foodPreference">
+                    <!-- Radio buttons for food preference -->
+                    <label for="pizzaType">Pizza Type:</label>
+                    <label for="veg">Veg</label>
+                    <input type="radio" id="veg" name="pizzaType" value="vegetarian" checked>
+                    <label for="nonveg">Non-veg</label>                    
+                    <input type="radio" id="nonveg" name="pizzaType" value="non-vegetarian">
+                </section>
+                <br />
+
+                <section class="extraOptions">
+                    <!-- Checkboxes for extra cheese and extra sauce -->
+                    <section class="extraCheese">
+                    <label for="moreCheese">Extra Cheese:</label>
+                    <input type="checkbox" id="moreCheese" name="moreCheese" value="yes" />
+                    </section>
+                    <br>
+                    <section class="extraSauce">
+                    <label for="moreSauce">Extra Sauce:</label>
+                    <input type="checkbox" id="moreSauce" name="moreSauce" value="yes" />
+                    </section>
+
+                </section>
+                <br />
+
+                <section class="quantity">
+                    <!-- Label and input field for quantity -->
+                    <label for="quantity">How Many Pizza?</label>
+                    <input type="number" required placeholder="2" id="quantity" name="quantity" />
+                </section>
+                <br />
+
+                <section class="telephone">
+                    <!-- Label and input field for telephone -->
+                    <label for="telephone">Telephone:</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="+1 (123) 456-7890" required />
+                </section>
+                <br />
+
+                <section class="address">
+                    <!-- Label and textarea for address -->
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="5" cols="40" placeholder="Enter your address"
+                        required></textarea>
+                </section>
+                <br />
+
+                <section class="postalCode">
+                    <!-- Label and input field for PIN/Postal code -->
+                    <label for="postal_code">PIN/Postal Code:</label>
+                    <input type="text" id="postal_code" name="postal_code" placeholder="Enter your PIN/Postal Code"
+                        required />
+                </section>
+                <br />
+
+                <section class="city">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city" required />
+                </section>
+                <br />
+
+                <section class="province">
+                    <label for="province">Province/State:</label>
+                    <input type="text" id="province" name="province" placeholder="Enter your province or state"
+                        required />
+                </section>
+                <br />
+
+                <section class="orderButton">
+                    <!-- Button to submit the form -->
+                    <button type="submit">Order Now</button>
+                </section>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <!-- Follow us on social media section -->
+        <p>Follow us on social media:</p>
+        <menu>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </menu>
+
+        <!-- Contact us section -->
+        <p>Contact us:</p>
+        <menu>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: info@pizzahunt.com</li>
+            <li>Address: 123 Main St, Anytown USA</li>
+        </menu>
+
+        <!-- Copyright section -->
+        <p>&copy; 2023 Pizza Hunt. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

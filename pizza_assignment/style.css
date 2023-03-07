@@ -1,0 +1,143 @@
+/* Set the font family and background color for the page */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./images/pexels-beqa-tefnadze-803290.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Style the header */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style the heading */
+#heading {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the image */
+#adImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the fieldset */
+fieldset {
+  border: none;
+}
+
+/* Style the legend */
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the select field */
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the radio buttons */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Style the checkboxes */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Style the button */
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+/* Social media links */
+footer menu li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Contact info */
+footer p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Menu styles */
+
+/* Menu list */
+menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Menu list items */
+menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
